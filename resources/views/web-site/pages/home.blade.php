@@ -428,7 +428,7 @@
                         </div>
 
                         <div class="mt-4">
-                            <a href="index.html" class="btn btn-primary">Learn More <i
+                            <a href="index.html" class="btn btn-success">Voir plus <i
                                     class="ri-arrow-right-line align-middle ms-1"></i></a>
                         </div>
                     </div>
@@ -564,25 +564,25 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="mb-4">
-                                        <label for="name" class="form-label fs-13">Name</label>
+                                        <label for="name" class="form-label fs-13">Nom complet</label>
                                         <input name="name" id="name" type="text"
-                                            class="form-control bg-light border-light" placeholder="Your name*">
+                                            class="form-control bg-light border-light" placeholder="Renseigner votre nom et prenom">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-4">
-                                        <label for="email" class="form-label fs-13">Email</label>
+                                        <label for="email" class="form-label fs-13">E-mail</label>
                                         <input name="email" id="email" type="email"
-                                            class="form-control bg-light border-light" placeholder="Your email*">
+                                            class="form-control bg-light border-light" placeholder="Renseigner votre e-mail">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="mb-4">
-                                        <label for="subject" class="form-label fs-13">Subject</label>
+                                        <label for="subject" class="form-label fs-13">Objet</label>
                                         <input type="text" class="form-control bg-light border-light" id="subject"
-                                            name="subject" placeholder="Your Subject.." />
+                                            name="subject" placeholder="Renseigner votre objet" />
                                     </div>
                                 </div>
                             </div>
@@ -591,14 +591,14 @@
                                     <div class="mb-3">
                                         <label for="comments" class="form-label fs-13">Message</label>
                                         <textarea name="comments" id="comments" rows="3" class="form-control bg-light border-light"
-                                            placeholder="Your message..."></textarea>
+                                            placeholder="Ecrivez votre message ici..."></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-12 text-end">
-                                    <input type="submit" id="submit" name="send"
-                                        class="submitBnt btn btn-primary" value="Send Message">
+                                    <button type="submit" id="submit" name="send"
+                                        class="submitBnt btn btn-success">Envoyer le message <i class="ri-mail-send-line mt-2"></i></button>
                                 </div>
                             </div>
                         </form>

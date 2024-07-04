@@ -3,7 +3,7 @@
         <div class="col-lg-4 mt-4">
             <div>
                 <div>
-                    <img src="{{asset('assets/images/logo-light.png')}}" alt="logo light" height="17">
+                    <img src="{{asset('assets/images/logo_v1.png')}}" alt="logo light" height="55">
                 </div>
                 <div class=mt-4 fs-13">
                     <p>Premium Multipurpose Admin & Dashboard Template</p>
@@ -34,7 +34,6 @@
                             <li><a href="apps-mailbox.html">Mailbox</a></li>
                             <li><a href="apps-chat.html">Chat</a></li>
                             <li><a href="apps-crm-deals.html">Deals</a></li>
-                            <li><a href="apps-tasks-kanban.html">Kanban Board</a></li>
                         </ul>
                     </div>
                 </div>
@@ -59,7 +58,7 @@
                 <p class="copy-rights mb-0">
                     <script>
                     document.write(new Date().getFullYear())
-                    </script> © Velzon - Themesbrand
+                    </script> © {{config('app.name')}}
                 </p>
             </div>
         </div>
