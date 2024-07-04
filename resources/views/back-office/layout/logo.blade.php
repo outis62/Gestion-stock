@@ -1,4 +1,4 @@
-<a href="{{route('customersDashboard')}}" class="logo logo-dark">
+<a href="{{route('admins.dashboard')}}" class="logo logo-dark">
     <span class="logo-sm">
         <img src="{{ asset('assets/images/logo_v1.png') }}" alt="" height="45">
     </span>
@@ -6,7 +6,7 @@
         <img src="{{ asset('assets/images/logo_v1.png') }}" alt="" height="45">
     </span>
 </a>
-<a href="{{route('customersDashboard')}}" class="logo logo-light">
+<a href="{{route('admins.dashboard')}}" class="logo logo-light">
     <span class="logo-sm">
         <img src="{{ asset('assets/images/logo_v1.png') }}" alt="" height="45">
     </span>

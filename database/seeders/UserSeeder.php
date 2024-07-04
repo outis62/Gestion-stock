@@ -19,21 +19,21 @@ class UserSeeder extends Seeder
 
         $admin_accounts = [
             [
-                'nom' => 'ENABEL',
-                'prenom' => 'Enabel',
+                'nom' => 'ZABRE',
+                'prenom' => 'Boureima',
                 'statut' => 1,
                 'adresse' => 'Koudougou',
-                'email' => 'admin@senegal.com',
+                'email' => 'admin@admin.com',
                 'password' => bcrypt('password'),
                 'role' => 'handler-admin',
                 'email_verified_at' => now(),
             ],
             [
-                'nom' => 'COOPERATIVE',
-                'prenom' => 'Cooperative',
+                'nom' => 'KABORE',
+                'prenom' => 'Haoua',
                 'statut' => 1,
                 'adresse' => 'Ouagadougou',
-                'email' => 'admin@cooperative.com',
+                'email' => 'secretaire@secretaire.com',
                 'password' => bcrypt('password'),
                 'role' => 'handler-op',
                 'email_verified_at' => now(),

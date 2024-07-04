@@ -10,7 +10,7 @@
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="javascript: void(0);">Accueil</a></li>
-                        <li class="breadcrumb-item active">operation-paysane</li>
+                        <li class="breadcrumb-item active">...</li>
                     </ol>
                 </div>
 
@@ -20,6 +20,6 @@
 @endsection
 @section('content')
     <span>
-        En construction
+        @include('back-office.pages.home')
     </span>
 @endsection
